@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './qrcode.css';
+
 import reportWebVitals from './reportWebVitals';
+import { Qrcode } from './Qrcode';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <Qrcode/>
   </React.StrictMode>
 );
 
